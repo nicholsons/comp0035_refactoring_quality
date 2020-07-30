@@ -1,9 +1,7 @@
 # Watch the video and carry out the refactoring steps explained in the video on the code below
 # https://www.youtube.com/watch?v=KTIl1MugsSY
 # Code is here on GitHub https://github.com/codereport/Talks/tree/master/2020-04-PyCon/BeautifulPythonRefactoring
-
-# original
-# https://towardsdatascience.com/web-scraping-html-tables-with-python-c9baba21059
+# The activity is based on an original article here: https://towardsdatascience.com/web-scraping-html-tables-with-python-c9baba21059
 
 import requests
 import lxml.html as lh
