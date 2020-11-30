@@ -9,6 +9,15 @@ def render_banner(self):
         pass
 
 
+# Highlight `self.platform.toUpperCase().indexOf("MAC") > -1`, and select Refactor | Extract/Introduce Variable.
+# Name the new variable isMacOS
+# Repeat for the other two conditions
+def render_banner(self):
+    if (self.platform.toUpperCase().indexOf("MAC") > -1) and (
+            self.browser.toUpperCase().indexOf("IE") > -1) and self.wasInitialized() and (self.resize > 0):
+        # do something
+        pass
+
 # After refactoring
 # Place the result of the expression or its parts in separate variables that are self-explanatory.
 def render_banner(self):

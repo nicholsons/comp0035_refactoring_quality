@@ -1,4 +1,4 @@
-'''
+"""
 https://www.thedigitalcatonline.com/blog/2017/07/21/refactoring-with-test-in-python-a-practical-example/
 
 Carry out the following steps:
@@ -6,7 +6,7 @@ Carry out the following steps:
 1. Rename the function s to stats
 2. Rename the class DS to DataStats
 
-'''
+"""
 
 import math
 import json
